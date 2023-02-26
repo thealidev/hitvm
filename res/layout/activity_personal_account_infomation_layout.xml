@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/color_17171a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/top_fl" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:id="@id/title_rl" android:background="@color/color_2e2d2d" android:layout_width="fill_parent" android:layout_height="@dimen/px94_750" android:layout_below="@id/my_setting_title_fl" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_fl">
+        <RelativeLayout android:id="@id/back_rl" android:layout_width="@dimen/px84_750" android:layout_height="fill_parent">
+            <ImageView android:id="@id/back_iv" android:layout_width="@dimen/px20_750" android:layout_height="@dimen/px40_750" android:src="@mipmap/back_icon" android:layout_centerInParent="true" android:rotationY="@integer/rtl_image_rotationY" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/px36t_750" android:textStyle="bold" android:textColor="@color/color_80_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_account_information" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_rl">
+        <RelativeLayout android:id="@id/account_information_rl" android:background="@color/color_232326" android:layout_width="fill_parent" android:layout_height="@dimen/px96_750" android:layout_marginTop="@dimen/px30_750">
+            <TextView android:textSize="@dimen/px28t_750" android:textColor="@color/color_cccccc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_information" android:layout_centerVertical="true" android:layout_marginStart="@dimen/px30_750" />
+            <ImageView android:layout_width="@dimen/px14_750" android:layout_height="@dimen/px24_750" android:src="@mipmap/goto_arrow" android:layout_centerVertical="true" android:rotationY="@integer/rtl_image_rotationY" android:layout_marginEnd="@dimen/px30_750" android:layout_alignParentEnd="true" />
+            <View android:background="@color/color_10_e8e8e8" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/deactivate_account_rl" android:background="@color/color_232326" android:layout_width="fill_parent" android:layout_height="@dimen/px96_750" android:layout_marginTop="@dimen/px30_750">
+            <TextView android:textSize="@dimen/px28t_750" android:textColor="@color/color_cccccc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px30_750" android:text="@string/deactivate_your_account" android:layout_centerVertical="true" android:layout_marginStart="@dimen/px30_750" />
+            <ImageView android:layout_width="@dimen/px14_750" android:layout_height="@dimen/px24_750" android:layout_marginRight="@dimen/px30_750" android:src="@mipmap/goto_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:rotationY="@integer/rtl_image_rotationY" android:layout_marginEnd="@dimen/px30_750" android:layout_alignParentEnd="true" />
+            <View android:background="@color/color_10_e8e8e8" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

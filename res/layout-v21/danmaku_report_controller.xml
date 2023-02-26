@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#e617171a" android:layout_width="@dimen/px640_750" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/danmaku_report_list_rl" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px40_750" android:layout_marginTop="@dimen/px44_750" android:layout_marginRight="@dimen/px40_750" android:layout_marginStart="@dimen/px40_750" android:layout_marginEnd="@dimen/px40_750">
+            <TextView android:textSize="@dimen/px34t_750" android:textColor="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/current_danmaku_list" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/px32t_750" android:textColor="@color/white" android:gravity="center" android:id="@id/danmaku_report_send_tv" android:background="@drawable/danmaku_report_send_background" android:layout_width="@dimen/px160_750" android:layout_height="@dimen/px60_750" android:text="@string/inform" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/danmaku_report_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/px44_750" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/danmaku_report_reason_rl" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px40_750" android:layout_marginTop="@dimen/px54_750" android:layout_marginRight="@dimen/px40_750" android:layout_marginStart="@dimen/px40_750" android:layout_marginEnd="@dimen/px40_750">
+            <TextView android:textSize="@dimen/px34t_750" android:textColor="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/select_report_reason" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/px28t_750" android:textColor="@color/text_hint_gray" android:id="@id/danmaku_report_danmaku_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/danmaku_report_reason_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px30_750" android:layout_marginTop="@dimen/px34_750" android:layout_marginRight="@dimen/px10_750" android:layout_marginStart="@dimen/px30_750" android:layout_marginEnd="@dimen/px10_750" android:nestedScrollingEnabled="false" />
+        <TextView android:textSize="@dimen/px32t_750" android:textColor="@color/light_gray" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/danmaku_report_reason_confirm_tv" android:background="@drawable/danmaku_report_unselect_shape" android:layout_width="@dimen/px360_750" android:layout_height="@dimen/px64_750" android:layout_marginTop="@dimen/px70_750" android:text="@string/cancel_report" />
+    </LinearLayout>
+</FrameLayout>

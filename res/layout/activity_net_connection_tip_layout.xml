@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#80000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/selections_shape" android:layout_width="@dimen/px540_750" android:layout_height="wrap_content">
+        <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px30_750" android:layout_marginTop="@dimen/px62_750" android:layout_marginRight="@dimen/px30_750" android:layout_marginStart="@dimen/px30_750" android:layout_marginEnd="@dimen/px30_750">
+            <TextView android:textSize="@dimen/px30t_750" android:textColor="@color/color_cccccc" android:gravity="center_horizontal" android:id="@id/dialog_text_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/px5_750" />
+        </ScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/button_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px62_750">
+            <TextView android:textSize="@dimen/px32t_750" android:textColor="@color/color_cccccc" android:gravity="center" android:id="@id/dialog_cancel_tv" android:background="@drawable/left_button_shape" android:paddingLeft="@dimen/px20_750" android:paddingTop="@dimen/px10_750" android:paddingRight="@dimen/px20_750" android:paddingBottom="@dimen/px10_750" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/px20_750" android:paddingEnd="@dimen/px20_750" />
+            <TextView android:textSize="@dimen/px32t_750" android:textStyle="bold" android:textColor="@color/color_80_ff5593" android:gravity="center" android:id="@id/dialog_sure_tv" android:background="@drawable/right_button_shape" android:paddingLeft="@dimen/px20_750" android:paddingTop="@dimen/px10_750" android:paddingRight="@dimen/px20_750" android:paddingBottom="@dimen/px10_750" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/px20_750" android:paddingEnd="@dimen/px20_750" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

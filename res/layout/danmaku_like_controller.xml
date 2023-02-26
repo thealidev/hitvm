@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/danmaku_root_rl" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/px70_750">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/danmaku_ll" android:background="@drawable/danmaku_like_shape" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/px146_750" android:layout_marginRight="@dimen/px146_750" android:layout_centerInParent="true" android:layout_marginStart="@dimen/px146_750" android:layout_marginEnd="@dimen/px146_750">
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/danmaku_content_tv" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/px30_750" android:layout_marginRight="@dimen/px30_750" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="@dimen/px30_750" android:layout_marginEnd="@dimen/px30_750" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/danmaku_like_and_dislike_ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/danmaku_like_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px30_750" android:layout_marginStart="@dimen/px30_750">
+                    <ImageView android:id="@id/danmaku_like_iv" android:layout_width="@dimen/px54_750" android:layout_height="@dimen/px54_750" android:layout_marginBottom="@dimen/px16_750" android:src="@mipmap/danmaku_controller_unlike_icon" />
+                    <TextView android:textSize="@dimen/px28t_750" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/danmaku_like_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px10_750" android:layout_marginRight="@dimen/px30_750" android:text="@string/danmaku_like" android:layout_marginStart="@dimen/px10_750" android:layout_marginEnd="@dimen/px30_750" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/danmaku_dislike_ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="@dimen/px32_750" android:layout_height="@dimen/px32_750" android:src="@mipmap/danmaku_dislike_icon" />
+                    <TextView android:textSize="@dimen/px28t_750" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px20_750" android:layout_marginRight="@dimen/px30_750" android:text="@string/danmaku_dislike" android:layout_marginStart="@dimen/px20_750" android:layout_marginEnd="@dimen/px30_750" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/danmaku_translate_content_ll" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/px30_750" android:layout_alignLeft="@id/danmaku_ll" android:layout_centerVertical="true" android:layout_marginStart="@dimen/px30_750" android:layout_alignStart="@id/danmaku_ll">
+            <TextView android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/danmaku_translate_content_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <pl.droidsonroids.gif.GifImageView android:id="@id/danmaku_blast_iv" android:visibility="gone" android:layout_width="@dimen/px230_750" android:layout_height="@dimen/px200_750" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>
