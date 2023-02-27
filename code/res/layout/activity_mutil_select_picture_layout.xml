@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/top_fl" android:background="@color/color_2e2d2d" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:id="@id/select_image_title" android:background="@color/color_2e2d2d" android:layout_width="fill_parent" android:layout_height="@dimen/px94_750" android:layout_below="@id/top_fl" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_fl">
+        <TextView android:textSize="@dimen/px34_750" android:textColor="@color/color_cccccc" android:gravity="center" android:id="@id/back_text" android:paddingLeft="@dimen/px10_750" android:paddingRight="@dimen/px10_750" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_marginStart="@dimen/px20_750" />
+        <TextView android:textSize="@dimen/px36t_750" android:textStyle="bold" android:textColor="@color/color_cccccc" android:id="@id/all_pic_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_photos" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/all_pic_image" android:layout_width="@dimen/px20_750" android:layout_height="@dimen/px12_750" android:src="@mipmap/select_image_arrow_down" android:layout_centerVertical="true" android:layout_marginStart="@dimen/px10_750" android:layout_toEndOf="@id/all_pic_title" app:tint="@color/color_cccccc" />
+    </RelativeLayout>
+    <com.gohitv.hitv.ui.view.VerticalDrawerLayout android:id="@id/vertical_drawer_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/select_image_title">
+        <RelativeLayout android:id="@id/content" android:background="@color/color_232326" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/image_recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/divider" />
+            <View android:id="@id/divider" android:background="@color/color_10_e8e8e8" android:layout_width="fill_parent" android:layout_height="@dimen/px1_750" android:layout_above="@id/bottom_button_rl" />
+            <RelativeLayout android:id="@id/bottom_button_rl" android:layout_width="fill_parent" android:layout_height="@dimen/px112_750" android:layout_alignParentBottom="true">
+                <TextView android:textSize="@dimen/px34_750" android:textColor="@color/color_cccccc" android:gravity="center" android:id="@id/pre_watch_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/preview_picture" android:paddingStart="@dimen/px30_750" android:paddingEnd="@dimen/px30_750" />
+                <TextView android:textSize="@dimen/px32t_750" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/select_finish_btn" android:background="@drawable/login_btn_high_light_shape" android:layout_width="wrap_content" android:layout_height="@dimen/px60_750" android:text="@string/add" android:layout_centerVertical="true" android:paddingStart="@dimen/px30_750" android:paddingEnd="@dimen/px30_750" android:layout_marginEnd="@dimen/px30_750" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:background="@color/color_232326" android:layout_width="fill_parent" android:layout_height="@dimen/px754_750">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/directory_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="0.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </com.gohitv.hitv.ui.view.VerticalDrawerLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

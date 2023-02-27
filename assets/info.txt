@@ -1,7 +1,0 @@
-name: Singular-v12.0.5-0bec03ca.master
-env: release
-git_commit: 0bec03ca
-git_branch: master
-version_name: 12.0.5
-version_code:1
-build_date: Tue, 3 May 2022 19:54:48 +0300

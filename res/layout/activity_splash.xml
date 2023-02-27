@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/color_ffd203" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.gohitv.hitv.tv_library.view.SplashViewPager android:id="@id/splash_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/px32_750" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-</RelativeLayout>

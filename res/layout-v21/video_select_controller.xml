@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/alpha_75_black" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/series_video_select_recycler_view" android:layout_width="@dimen/px562_750" android:layout_height="fill_parent" android:layout_margin="@dimen/px30_750" android:nestedScrollingEnabled="false" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/arts_video_select_recycler_view" android:layout_width="@dimen/px562_750" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/px22_640" android:nestedScrollingEnabled="false" />
-</RelativeLayout>

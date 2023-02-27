@@ -1,0 +1,1 @@
+java -jar apktool.jar b code

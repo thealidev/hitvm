@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/px28t_750" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@android:id/message" android:background="@drawable/exit_toast_shape" android:paddingLeft="@dimen/px40_750" android:paddingTop="@dimen/px20_750" android:paddingRight="@dimen/px40_750" android:paddingBottom="@dimen/px20_750" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/px40_750" android:paddingEnd="@dimen/px40_750" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

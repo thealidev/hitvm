@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#e617171a" android:layout_width="@dimen/px450_750" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/px34t_750" android:textColor="@color/white" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px50_750" android:text="@string/subtitles" android:includeFontPadding="false" android:layout_marginStart="@dimen/px96_750" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/subtitles_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px40_750" android:layout_below="@id/title_tv" android:nestedScrollingEnabled="false" />
+</RelativeLayout>

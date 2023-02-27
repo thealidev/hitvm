@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mbridge_dynamic_view_install_text">Install</string>
+    <string name="mbridge_dynamic_view_open_text">Open</string>
+    <string name="mbridge_dynamic_view_view_text">View</string>
+    <string name="mbridge_splash_count_time_can_skip">SKIP</string>
+    <string name="mbridge_splash_count_time_can_skip_not">Auto close after</string>
+    <string name="mbridge_splash_count_time_can_skip_s">s</string>
+    <string name="pickerview_cancel">Cancel</string>
+    <string name="pickerview_day" />
+    <string name="pickerview_hours" />
+    <string name="pickerview_minutes" />
+    <string name="pickerview_month" />
+    <string name="pickerview_seconds" />
+    <string name="pickerview_submit">Confirm</string>
+    <string name="pickerview_year" />
+</resources>

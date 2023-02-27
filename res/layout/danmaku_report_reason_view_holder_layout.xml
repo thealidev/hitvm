@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/px34t_750" android:textColor="@color/white" android:gravity="center" android:id="@id/danmaku_report_reason_view_holder_content_tv" android:background="@drawable/danmaku_report_unselect_shape" android:layout_width="@dimen/px180_750" android:layout_height="@dimen/px62_750" android:layout_marginLeft="@dimen/px10_750" android:layout_marginTop="@dimen/px20_750" android:layout_marginRight="@dimen/px10_750" android:layout_marginBottom="@dimen/px20_750" android:layout_marginStart="@dimen/px10_750" android:layout_marginEnd="@dimen/px10_750" />
-</LinearLayout>

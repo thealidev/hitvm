@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px24_750" android:layout_marginBottom="@dimen/px24_750"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/danmaku_detail_view_holder_select_iv" android:layout_width="@dimen/px36_750" android:layout_height="@dimen/px36_750" android:layout_marginLeft="@dimen/px40_750" android:src="@mipmap/danmaku_report_unselect" android:layout_marginStart="@dimen/px40_750" />
-    <TextView android:textSize="@dimen/px32t_750" android:textColor="@color/white" android:id="@id/danmaku_detail_view_holder_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px20_750" android:layout_marginStart="@dimen/px20_750" />
-</LinearLayout>
