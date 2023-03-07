@@ -1,1 +1,1 @@
-java -jar apktool.jar b code
+java -jar apktool.jar b source

@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
-        pkgs.cowsay
+        pkgs.openjdk8
+        pkgs.replitPackages.java-debug
     ];
 }
